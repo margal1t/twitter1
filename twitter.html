@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Twitter</title>
+
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<style type="text/css">
+		#navbar {
+			background-color: rgb(189, 230, 239);
+			color: rgb(255, 198, 234);
+			padding-left: 20px;
+		}
+		#left-sidebar {
+			background-color: rgb(255, 172, 168);
+		}
+		#center {
+			background-color: rgb(231, 218, 232);
+			
+		}
+		#right-sidebar {
+			background-color: rgb(255, 172, 168);
+		}
+
+		#footer {
+			background-color: rgb(255, 172, 168);
+		}
+
+		.post-image {
+			width: 90px;
+			height: 90px;
+			border-radius: 50%;
+		}
+		.prof-image {
+			width: 130px;
+			height: 130px;
+			border-radius: 50%
+		}
+
+		.user-name {
+			color: yellow;
+		}
+
+		.dat-e {
+			color: rgb(67, 193, 135);
+		}
+
+		.post {
+			border-bottom: 2px 
+			color: black;
+		}
+
+		#navbar-ul {
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+
+		.navbar-li {
+			display: inline-block;
+			padding-right: 77px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			line-height: 25px;
+		}
+
+		.fa-angellist {
+			font-size: 30px;
+		}
+
+		p {
+			margin: 3px;
+			padding: 0px;
+			font-size: 14px;
+			font-family: bookman;
+			font-size: 16px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+			<div class="row">
+				<div id="navbar" class="col-12">
+					<ul id="navbar-ul">
+						<i class="fab fa-angellist"></i>
+						<li class="navbar-li"></i></li>
+						<li class="navbar-li"><a href="https://google.com">Feed</a></li>
+						<li class="navbar-li"><a href="https://google.com">Posts</a></li>
+						<li class="navbar-li"><a href="https://google.com">Notifications</a></li>
+						<li class="navbar-li"><a href="https://google.com">Profile</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="main-content" class="row">
+				<div id="left-sidebar" class="col-3">
+					<img class="prof-image" src="https://i.pinimg.com/474x/0a/48/67/0a48674b568e45a3a94ec97f2e2b8232.jpg">
+					<p>Mags</p>
+					<p class="user-name">@magthebun</p>
+					<p>📍 NYBunsty </p>
+					<p>Family and carrorts are always on my mind</p>
+				</div>
+
+				<div id="center" class="col-6">
+				<div class="post row">
+					<div class="col-5 img-side">
+						<img class="post-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbQqH69cO58ko_y4NLrEYoWXYeAMTcsBlPM2smqXQTWeiwzC6G">
+					</div>
+					<div class="col-7 text-side">
+						<p class="user-name"> @carrotlover1</p>
+						<p class="dat-e"> 1/1/2018</p>
+						<p>Happy New Year Bunny's Land!! 🍾 </p>
+				</div>
+			</div>
+
+			<div class="post row">
+				<div class="col-5 img-side">
+					<img class="post-image" src="https://i.pinimg.com/736x/64/87/0a/64870a67c0136cea780bbceffed00ec5--fluffy-bunny-bunny-bunny.jpg">
+				</div>
+				<div class="col-7 text-side">
+					<p class="user-name"> @blackbadbunny</p>
+					<p class="dat-e"> 1/1/2018</p>
+					<p> New Year, Same Bad Bunny! Watch your back 🎲 </p>
+				</div>
+			</div>
+
+			<div class="post row">
+				<div class="col-5 img-side">
+					<img class="post-image" src="https://cutefest.files.wordpress.com/2010/11/stand-up-bunny.jpg">
+				</div>
+				<div class="col-7 text-side">
+					<p class="user-name"> @whitebaddy</p>
+					<p class="dat-e"> 1/1/2018</p>
+					<p>Watch out because 2018 is going to be MY year ✨#unstopable</p>
+				</div>
+			</div>
+
+
+		</div>
+		<div id="right-sidebar" class="col-3">
+
+		</div>
+	</div>
+	<div class="row">
+		<div id="footer" class="col-12">
+			<i class="far fa-heart"></i>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
